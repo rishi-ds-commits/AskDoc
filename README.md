@@ -1,6 +1,21 @@
-# 📄 AskDoc AI-Powered PDF Analyzer 🚀  
+# 📄 AskDoc - AI Powered PDF Question-Answer Generator 🚀  
 
-An intelligent **PDF analyzer** that extracts key concepts, generates **questions & answers**, and exports them as a CSV file. Built with **Flask, LangChain, Gemini AI, FAISS, and Hugging Face embeddings**.
+AskDoc is an intelligent AI-powered educational assistant designed to analyze PDFs, generate insightful questions, and provide precise answers using LLM-powered RAG techniques.
+This project leverages Gemini-1.5-Pro for question generation and FAISS-powered vector search for accurate answer retrieval, ensuring that learners can extract key knowledge from documents effortlessly.
+
+## 📂 Project Structure  
+📂 AskDoc  
+ ┣ 📂 src  
+ ┃ ┣ 📜 helper.py  
+ ┃ ┣ 📜 prompt.py  
+ ┣ 📂 static  
+ ┃ ┣ 📂 docs            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     # Uploaded PDFs  
+ ┃ ┣ 📂 output          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     # Generated CSV files  
+ ┣ 📂 templates  
+ ┃ ┣ 📜 index.html  
+ ┣ 📜 app.py  
+ ┣ 📜 requirements.txt  
+ ┣ 📜 README.md  
 
 ## ✨ Features
 ✅ **PDF Processing** – Extracts and splits text from PDFs  
@@ -9,16 +24,14 @@ An intelligent **PDF analyzer** that extracts key concepts, generates **question
 ✅ **User-Friendly UI** – Simple file upload and CSV export  
 ✅ **Lightweight & Fast** – Optimized for quick processing  
 
-## 📂 Project Structure  
-📂 pdf-analyzer-ai/  
- ┣ 📂 src/  
- ┃ ┣ 📜 helper.py   # AI processing pipeline  
- ┃ ┣ 📜 prompt.py   # Custom prompts for Gemini AI  
- ┣ 📂 static/  
- ┃ ┣ 📂 docs/       # Uploaded PDFs  
- ┃ ┣ 📂 output/     # Generated CSV files  
- ┣ 📂 templates/  
- ┃ ┣ 📜 index.html  # Frontend UI  
- ┣ 📜 app.py        # Flask server  
- ┣ 📜 requirements.txt  
- ┣ 📜 README.md  
+## 📌 Working  
+1️⃣ Upload a PDF through the UI  
+2️⃣ Analyze the document to generate questions & answers  
+3️⃣ Download the CSV file with structured Q&A  
+
+## 🛠️ Tech Stack  
+**Flask** – Backend API  
+**LangChain** – AI-powered question generation  
+**FAISS** – Vector-based retrieval  
+**Hugging Face** – Embeddings for document storage  
+**HTML & CSS** – Simple frontend UI  
