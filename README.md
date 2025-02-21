@@ -1,4 +1,4 @@
-# 📄 AskDoc - AI Powered PDF Question-Answer Generator 🚀  
+# AskDoc - AI Powered PDF Question-Answer Generator  
 
 AskDoc is an intelligent AI-powered educational assistant designed to analyze PDFs, generate insightful questions, and provide precise answers using LLM-powered RAG techniques.
 This project leverages Gemini-1.5-Pro for question generation and FAISS-powered vector search for accurate answer retrieval, ensuring that learners can extract key knowledge from documents effortlessly.
